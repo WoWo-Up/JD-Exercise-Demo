@@ -1,0 +1,40 @@
+body,p,ol,ul,dl,dd,dt,li,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body {
+	font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+	color: #666;
+	background-color: #F6F6F6;
+}
+.clearfix:after{
+	content:"";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+a {
+	text-decoration: none;
+	color:#666666;
+}
+.clearfix{
+	zoom:1;
+}
+input img {
+	vertical-align: middle;
+	border: none;
+	outline-style: none;
+}
+s,i,em{
+	font-style:normal;
+	text-decoration:none;
+}
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+
